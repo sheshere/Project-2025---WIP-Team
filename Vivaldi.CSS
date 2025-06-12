@@ -1,1 +1,65 @@
-TEST2
+html {
+    background-color:aquamarine;
+}
+h1 {
+    margin: 4 4;
+    padding: 5px;
+    color: #0b0235;
+    text-shadow: 3px 3px 1px black;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+body {
+  margin: 0 auto;
+  padding: auto auto auto auto;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    font-family: "Roboto", sans-serif;
+    color: purple;
+    font-size: 30px;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+}
+li {
+  color: goldenrod;
+  font-style: oblique;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  border: 1px solid black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width:100%;
+  border-radius: 8px;
+  border-style: ridge;
+  box-shadow: 0cqmax blueviolet;
+}
+label {
+    font: 
+    1rem "Fira Sans",
+    sans-serif;
+}
+input {
+    margin: 0.4rem
+}
+audio {
+    box-sizing: border-box;
+    align-content: center;
+}
+footer {
+text-align: right;
+font-size: 16px;
+}
+
