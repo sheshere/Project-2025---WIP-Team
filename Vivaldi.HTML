@@ -1,55 +1,53 @@
+<!DOCTYPE html>
 <html lang="en-US"></html>
 <header1>
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta charset="utf-8" />
 <title> Vivaldi. A digital homage: </title>
 <h1>Welcome!</h1>
 <link href="Vivaldi.CSS" rel ="stylesheet"/>
-<script async src="Project-2025---WIP-Team/vivaldi.js"></script>
-<link rel="icon" href="favicon.ico" />
+<script async src="Project-2025---WIP-Team/Vivaldi.js"></script>
+//nu știu să bag favicon, aia e//
+<link rel="icon" href="favicon.svg"/>
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+//aici se încheie . atât s-a putut pe favicon//
 </header>
-
 <body>
   <h2>This is a <b>beginner's</b> project. Our <q>Work-in-Progress</q> Team <s>hardly</s> worked for this.</h2>
-    <details>
         <summary><h3>A list of our thoughts in the oven:</h3></summary>
         <ul>
-            <li>Please be patient.</li>
-            <li><mark>Choose your season down below.</mark></li>
-            <li>Be patient though. Scroll & Enjoy.</li>
-            <li> <a href = "https://youtu.be/KXPIfMyj7mI?feature=shared" target="_blank"> Here we have a link. </a></li>
-        </ul>
-    </details>
+            <li>It was tough but we managed to do a basic thing.</li>
+            <li> <a href = "https://www.youtube.com/watch?v=pct1uEhAqBQ&list=RDpct1uEhAqBQ&start_radio=1" target="_blank"> Here we have a link reflective of our attempts. </a></li>
+            <li> Enjoy.</li>
+         </ul>       
+    <div class="container">
+    <fieldset>
+    <legend><h1 id="main-title">Which one is your favorite?</h1></legend>
+    <div class="buttons" id="season-buttons">
+      <button onclick="document.location='file:///D:/WORK/FRONTEND/PROJECT WIP/Project-2025---WIP-Team/Autumn.HTML'">Autumn</button>
+      <button onclick="document.location='file:///D:/WORK/FRONTEND/PROJECT WIP/Project-2025---WIP-Team/winter.HTML'">Winter</button>
+      <button onclick="document.location='file:///D:/WORK/FRONTEND/PROJECT WIP/Project-2025---WIP-Team/Spring.HTML'">Spring</button>
+      <button onclick="document.location='file:///D:/WORK/FRONTEND/PROJECT WIP/Project-2025---WIP-Team/summer.HTML'">Summer</button>
+    </div>
+     <div id="season-content" class="hidden">
+      <p id="season-description"></p>
+      </audio>
+      </fieldset>
+      <br><br>
+    </div>
+  </div>
+        
+ 
 <br>
 <br>
    <img src="images/seasons.jpg" width="450" alt="Autumn falls" />
    <br>
    <br>
-   <audio controls>
-    <source src="sounds/Flacara.mp3" type="audio/mpeg">
-    </audio>
+   
 <br>
 <br>
-<br>
-<fieldset>
-    <legend>Select your favorite season: </legend>
-<div>
-    <input type ="radio" id="winter" name = "season" value = "winter" checked/>
-    <label for "winter">Winter</label>
-</div>
-<div>
- <input type ="radio" id="spring" name = "season" value = "spring" checked/>
-    <label for "spring">Spring</label>
-</div>
-<div>
- <input type ="radio" id="summer" name = "season" value = "Summer" checked/>
-    <label for "summer">Summer</label>
-</div>
-<div>
- <input type ="radio" id="autumn" name = "season" value = "autumn" checked/>
-    <label for "autumn">Autumn</label>
-</div>
-</fieldset>
 <br>
 <br>
    <p>Thank you for your <strong>at-tension.</strong></p>
