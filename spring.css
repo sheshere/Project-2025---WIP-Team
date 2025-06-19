@@ -1,15 +1,15 @@
-html{
-    <img src="images/winter.jpeg" width="450" alt="Winter" />
+html {
+    <img src="images/winter.jpeg" width="450" alt="Winter" />;
 }
 div class
 
 .snowflake{
-width:10px,
-height:10px,
-border-radius: 50%
-left: 50%
-position: absolute,
-background: white,
+width:10px;
+height:10px;
+border-radius: 50%;
+left: 50%;
+position: absolute;
+background: white;
 animation: snowEffect 5s ease-in-out infinite;
 top:-10px;
 }
